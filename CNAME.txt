@@ -1,4 +1,0 @@
-
-git add CNAME
-git commit -m "CodeRush/WS.com"
-git push
