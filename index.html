@@ -413,7 +413,7 @@
                 </div>
                 <div class="info-item">
                     <div class="info-label">Time:</div>
-                    <div class="info-value timer" id="timer">20</div>
+                    <div class="info-value timer" id="timer">40</div>
                 </div>
             </div>
             <div class="progress-bar">
@@ -605,7 +605,7 @@
                         
                         if (remainingTargets.length === 0) {
                             // Add bonus time
-                            timeLeft += 3;
+                            timeLeft += 5;
                             // Change to a new random target code
                             targetStatus = statusCodes[Math.floor(Math.random() * statusCodes.length)].status;
                             const targetElement = document.getElementById('targetStatus');
